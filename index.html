@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="QuickSave Privacy Policy">
+  <meta name="robots" content="index,follow">
+  <title>QuickSave — Privacy Policy</title>
+  <style>
+    :root{
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --text:#172033;
+      --muted:#657086;
+      --accent:#3157d5;
+      --accent-2:#5f7cf0;
+      --border:#e4e8f0;
+      --shadow:0 14px 40px rgba(28,42,76,.08);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,#eef3ff 0,#f7f8fb 260px,#f5f7fb 100%);
+      color:var(--text);
+      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      line-height:1.7;
+    }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{width:min(980px,calc(100% - 32px));margin:0 auto}
+    header{
+      padding:48px 0 26px;
+      text-align:center;
+    }
+    .brand{
+      display:inline-flex;
+      align-items:center;
+      gap:12px;
+      margin-bottom:12px;
+      font-weight:800;
+      font-size:clamp(30px,5vw,46px);
+      letter-spacing:-.04em;
+    }
+    .logo{
+      width:52px;height:52px;border-radius:16px;
+      display:grid;place-items:center;
+      color:#fff;font-size:25px;
+      background:linear-gradient(135deg,#3157d5,#6b83f1);
+      box-shadow:0 12px 28px rgba(49,87,213,.28);
+    }
+    .subtitle{margin:0;color:var(--muted);font-size:18px}
+    .langbar{
+      margin:25px auto 0;
+      padding:6px;
+      width:max-content;
+      max-width:100%;
+      display:flex;
+      gap:4px;
+      flex-wrap:wrap;
+      justify-content:center;
+      background:rgba(255,255,255,.78);
+      border:1px solid var(--border);
+      border-radius:14px;
+      box-shadow:0 8px 24px rgba(28,42,76,.06);
+      backdrop-filter:blur(8px);
+    }
+    .langbar button{
+      border:0;
+      background:transparent;
+      color:var(--muted);
+      padding:9px 13px;
+      border-radius:10px;
+      cursor:pointer;
+      font:inherit;
+      font-weight:700;
+    }
+    .langbar button.active{background:#e9eeff;color:var(--accent)}
+    .content{
+      background:var(--card);
+      border:1px solid var(--border);
+      box-shadow:var(--shadow);
+      border-radius:var(--radius);
+      padding:clamp(24px,5vw,48px);
+      margin:12px auto 40px;
+    }
+    .notice{
+      background:#f0f4ff;
+      border:1px solid #dbe4ff;
+      border-radius:16px;
+      padding:16px 18px;
+      margin-bottom:30px;
+    }
+    h1,h2,h3{line-height:1.25;color:#12192a}
+    h1{font-size:32px;margin:0 0 8px}
+    h2{font-size:22px;margin:34px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--border)}
+    h3{font-size:18px;margin:22px 0 7px}
+    p{margin:10px 0}
+    ul{padding-left:22px}
+    li{margin:5px 0}
+    .meta{color:var(--muted);font-size:14px}
+    .lang{display:none}
+    .lang.active{display:block}
+    .contact{
+      background:#f8f9fc;
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:18px;
+      margin-top:16px;
+    }
+    footer{
+      text-align:center;
+      color:var(--muted);
+      font-size:14px;
+      padding:0 0 40px;
+    }
+    .ltr{direction:ltr}
+    [dir="rtl"] body{font-family:Tahoma,Arial,sans-serif}
+    [dir="rtl"] ul{padding-left:0;padding-right:22px}
+    @media (max-width:600px){
+      .container{width:min(100% - 20px,980px)}
+      header{padding-top:30px}
+      .content{border-radius:16px;padding:22px 18px}
+      .langbar{width:100%}
+      .langbar button{flex:1;min-width:100px}
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="brand"><span class="logo">⚡</span><span>QuickSave</span></div>
+    <p class="subtitle">Privacy Policy</p>
+    <div class="langbar" aria-label="Language selector">
+      <button id="btn-en" class="active" onclick="setLanguage('en')">🇬🇧 English</button>
+      <button id="btn-it" onclick="setLanguage('it')">🇮🇹 Italiano</button>
+      <button id="btn-ar" onclick="setLanguage('ar')">🇸🇦 العربية</button>
+    </div>
+  </header>
+
+  <main class="container content">
+    <section id="en" class="lang active" lang="en" dir="ltr">
+      <h1>Privacy Policy</h1>
+      <p class="meta"><strong>Last updated:</strong> September 29, 2026</p>
+
+      <div class="notice">
+        This Privacy Policy explains how QuickSave handles information when you use the QuickSave Android application.
+      </div>
+
+      <h2>1. Data Controller</h2>
+      <p>QuickSave is developed and maintained by <strong>Abdulrahman Alraeeini</strong>.</p>
+      <div class="contact">
+        <strong>Contact:</strong> <a href="mailto:raeeiniab@gmail.com">raeeiniab@gmail.com</a>
+      </div>
+
+      <h2>2. Information QuickSave Processes</h2>
+      <p>QuickSave is designed to minimize data processing by keeping application data on the device whenever practical. QuickSave does not currently operate its own user account system, advertising server, or cloud database for the app's ordinary operation.</p>
+
+      <h3>2.1 URLs and media information</h3>
+      <p>When you enter or share a link, QuickSave may process the URL and technical media metadata needed to identify and download the requested content, such as title, thumbnail, duration, format and available media streams.</p>
+
+      <h3>2.2 Download history and settings</h3>
+      <p>QuickSave stores application settings and download history locally on your device. This can include download status, title, source URL, selected quality/format, file location and related metadata.</p>
+
+      <h3>2.3 Login sessions and cookies</h3>
+      <p>For supported services, you may optionally sign in through QuickSave's in-app browser or import a supported <code>cookies.txt</code> file. Session and cookie information is stored in the app's private storage and is used to make authenticated requests to the relevant third-party service.</p>
+      <p>QuickSave does not provide the developer with a separate cloud account for storing these credentials. However, when authenticated content is requested, the relevant third-party platform may receive requests and information according to its own privacy policy and terms.</p>
+
+      <h3>2.4 Backups</h3>
+      <p>If you use QuickSave's backup feature, the exported JSON file may contain download history, playlists, settings and supported session/cookie data. The backup file is created at the location you choose through Android's file picker. You are responsible for protecting any backup file that contains sensitive information.</p>
+
+      <h3>2.5 Advertising</h3>
+      <p>QuickSave may use Google Mobile Ads (AdMob) to display banner and rewarded advertisements. According to Google's current documentation for the Google Mobile Ads SDK, the SDK may automatically collect and share information such as IP address, app interactions, diagnostic information and device/account identifiers for purposes including advertising, analytics and fraud prevention.</p>
+      <p>For users in regions where consent is required, advertising and personalized advertising are subject to applicable consent requirements and Google publisher policies.</p>
+
+      <h2>3. How Information Is Used</h2>
+      <p>Information processed by QuickSave is used for purposes such as:</p>
+      <ul>
+        <li>starting and managing downloads;</li>
+        <li>showing download progress and history;</li>
+        <li>remembering your preferences;</li>
+        <li>supporting optional authenticated sessions;</li>
+        <li>creating and restoring backups;</li>
+        <li>serving and measuring advertisements through third-party advertising services.</li>
+      </ul>
+
+      <h2>4. Third-Party Services and Platforms</h2>
+      <p>QuickSave can interact with third-party online platforms when you request content from them. Those platforms may process IP addresses, cookies, authentication information, content requests and other technical information in accordance with their own policies and terms.</p>
+      <p>Examples of supported integrations may include YouTube/Google, Instagram, Facebook and X. Platform availability may change over time.</p>
+      <p>Third-party services are independent of QuickSave. You should review their privacy policies and terms before using authenticated features.</p>
+
+      <h2>5. Storage and Retention</h2>
+      <p>Local application data is generally retained until you delete it, clear the relevant data in QuickSave, clear session/cookie data, remove the application, or otherwise overwrite it.</p>
+      <p>Downloaded media files may remain in a folder selected by you even after app data is cleared or the app is uninstalled. You can delete those files using your device's file manager or media library.</p>
+      <p>Third-party advertising and online platforms may retain information according to their own policies.</p>
+
+      <h2>6. Data Security</h2>
+      <p>QuickSave uses Android application-private storage for local session data and relies on Android's platform security mechanisms. Network communications with third-party services are subject to the security mechanisms used by those services.</p>
+      <p>No method of electronic storage or transmission can be guaranteed to be completely secure. Keep exported backups and authentication files private.</p>
+
+      <h2>7. Your Choices and Rights</h2>
+      <p>Depending on your location and applicable law, you may have rights concerning personal data, including rights to access, correct, delete, restrict or object to certain processing, and to withdraw consent where processing is based on consent.</p>
+      <p>Within QuickSave, you can manage or delete local download history, application settings, session/cookie data and exported backups under the controls provided by the application and Android file system.</p>
+      <p>For advertising choices and privacy controls provided by Google, you may also use the consent and privacy controls made available by Google and your device.</p>
+
+      <h2>8. Children's Privacy</h2>
+      <p>QuickSave is not specifically directed to children under 13. We do not knowingly ask children to provide personal information directly to the developer.</p>
+
+      <h2>9. Changes to This Policy</h2>
+      <p>This Privacy Policy may be updated when QuickSave's features, third-party services, legal requirements or data practices change. The current version will be published on this page with an updated date.</p>
+
+      <h2>10. Contact</h2>
+      <p>For privacy questions or requests related to QuickSave, contact:</p>
+      <div class="contact">
+        <strong>Abdulrahman Alraeeini</strong><br>
+        <a href="mailto:raeeiniab@gmail.com">raeeiniab@gmail.com</a>
+      </div>
+
+      <h2>11. Related Information</h2>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+        <li><a href="https://support.google.com/admob/answer/10502938" target="_blank" rel="noopener">Google Publisher Policies</a></li>
+        <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener">Google Mobile Ads SDK — Play Data Disclosure</a></li>
+      </ul>
+    </section>
+
+    <section id="it" class="lang" lang="it" dir="ltr">
+      <h1>Informativa sulla Privacy</h1>
+      <p class="meta"><strong>Ultimo aggiornamento:</strong> 29 settembre 2026</p>
+
+      <div class="notice">
+        Questa Informativa sulla Privacy spiega come QuickSave gestisce le informazioni quando utilizzi l'applicazione Android QuickSave.
+      </div>
+
+      <h2>1. Titolare del trattamento</h2>
+      <p>QuickSave è sviluppata e gestita da <strong>Abdulrahman Alraeeini</strong>.</p>
+      <div class="contact">
+        <strong>Contatto:</strong> <a href="mailto:raeeiniab@gmail.com">raeeiniab@gmail.com</a>
+      </div>
+
+      <h2>2. Informazioni trattate da QuickSave</h2>
+      <p>QuickSave è progettata per ridurre al minimo il trattamento dei dati e, quando possibile, mantiene i dati dell'applicazione sul dispositivo. Attualmente QuickSave non gestisce un proprio sistema di account utente, un proprio server pubblicitario o un database cloud per il normale funzionamento dell'app.</p>
+
+      <h3>2.1 URL e informazioni sui media</h3>
+      <p>Quando inserisci o condividi un link, QuickSave può elaborare l'URL e i metadati tecnici necessari per identificare e scaricare il contenuto richiesto, come titolo, miniatura, durata, formato e flussi multimediali disponibili.</p>
+
+      <h3>2.2 Cronologia e impostazioni</h3>
+      <p>QuickSave salva localmente sul dispositivo le impostazioni dell'app e la cronologia dei download. Possono essere inclusi stato del download, titolo, URL sorgente, qualità/formato scelti, posizione del file e metadati correlati.</p>
+
+      <h3>2.3 Sessioni di accesso e cookie</h3>
+      <p>Per i servizi supportati puoi effettuare facoltativamente l'accesso tramite il browser integrato di QuickSave oppure importare un file <code>cookies.txt</code> supportato. Le informazioni di sessione e i cookie vengono memorizzati nello spazio privato dell'app e utilizzati per effettuare richieste autenticate verso il relativo servizio di terze parti.</p>
+      <p>QuickSave non fornisce allo sviluppatore un account cloud separato per conservare queste credenziali. Tuttavia, quando viene richiesto contenuto autenticato, la relativa piattaforma di terze parti può ricevere richieste e informazioni secondo la propria informativa sulla privacy e i propri termini.</p>
+
+      <h3>2.4 Backup</h3>
+      <p>Se utilizzi la funzione di backup di QuickSave, il file JSON esportato può contenere cronologia dei download, playlist, impostazioni e dati supportati relativi a sessioni/cookie. Il file viene creato nella posizione scelta da te tramite il selettore file di Android. Sei responsabile della protezione di eventuali backup contenenti informazioni sensibili.</p>
+
+      <h3>2.5 Pubblicità</h3>
+      <p>QuickSave può utilizzare Google Mobile Ads (AdMob) per mostrare banner pubblicitari e annunci con premio. Secondo la documentazione attuale di Google per il Google Mobile Ads SDK, l'SDK può raccogliere e condividere automaticamente informazioni come indirizzo IP, interazioni con l'app, informazioni diagnostiche e identificatori del dispositivo/account per finalità che includono pubblicità, analisi e prevenzione delle frodi.</p>
+      <p>Per gli utenti nelle regioni in cui è richiesto il consenso, la pubblicità e la pubblicità personalizzata sono soggette ai requisiti di consenso applicabili e alle norme Google per i publisher.</p>
+
+      <h2>3. Come vengono utilizzate le informazioni</h2>
+      <p>Le informazioni trattate da QuickSave possono essere utilizzate per:</p>
+      <ul>
+        <li>avviare e gestire i download;</li>
+        <li>mostrare progresso e cronologia;</li>
+        <li>memorizzare le preferenze;</li>
+        <li>supportare sessioni autenticate opzionali;</li>
+        <li>creare e ripristinare backup;</li>
+        <li>fornire e misurare la pubblicità tramite servizi pubblicitari di terze parti.</li>
+      </ul>
+
+      <h2>4. Servizi e piattaforme di terze parti</h2>
+      <p>QuickSave può interagire con piattaforme online di terze parti quando richiedi contenuti da tali servizi. Queste piattaforme possono elaborare indirizzi IP, cookie, informazioni di autenticazione, richieste di contenuti e altre informazioni tecniche secondo le proprie informative e i propri termini.</p>
+      <p>Le integrazioni possono includere, a seconda della versione, YouTube/Google, Instagram, Facebook e X. La disponibilità delle piattaforme può cambiare nel tempo.</p>
+      <p>I servizi di terze parti sono indipendenti da QuickSave. Ti consigliamo di consultare le loro informative sulla privacy e i loro termini prima di usare le funzioni autenticate.</p>
+
+      <h2>5. Conservazione dei dati</h2>
+      <p>I dati locali dell'applicazione vengono generalmente conservati fino a quando li elimini, cancelli i dati pertinenti in QuickSave, elimini sessioni/cookie, disinstalli l'app o li sovrascrivi in altro modo.</p>
+      <p>I file multimediali scaricati possono rimanere nella cartella scelta da te anche dopo la cancellazione dei dati dell'app o la disinstallazione. Puoi eliminarli tramite il file manager o la libreria multimediale del dispositivo.</p>
+      <p>I servizi pubblicitari e le piattaforme online di terze parti possono conservare le informazioni secondo le proprie policy.</p>
+
+      <h2>6. Sicurezza dei dati</h2>
+      <p>QuickSave utilizza lo spazio privato dell'app Android per i dati di sessione locali e i meccanismi di sicurezza forniti da Android. Le comunicazioni di rete verso servizi di terze parti sono soggette ai meccanismi di sicurezza utilizzati da tali servizi.</p>
+      <p>Nessun metodo di archiviazione o trasmissione elettronica può essere garantito come completamente sicuro. Mantieni privati i backup esportati e i file di autenticazione.</p>
+
+      <h2>7. Scelte e diritti dell'utente</h2>
+      <p>In base alla tua posizione e alla legge applicabile, puoi avere diritti relativi ai dati personali, inclusi accesso, rettifica, cancellazione, limitazione o opposizione a determinati trattamenti e revoca del consenso quando il trattamento si basa sul consenso.</p>
+      <p>In QuickSave puoi gestire o eliminare la cronologia locale, le impostazioni, i dati di sessione/cookie e i backup esportati tramite i controlli dell'app e del sistema Android.</p>
+      <p>Per le impostazioni pubblicitarie e i controlli sulla privacy forniti da Google puoi utilizzare anche gli strumenti di consenso e privacy messi a disposizione da Google e dal dispositivo.</p>
+
+      <h2>8. Privacy dei minori</h2>
+      <p>QuickSave non è specificamente destinata a minori di 13 anni. Non chiediamo consapevolmente ai minori di fornire informazioni personali direttamente allo sviluppatore.</p>
+
+      <h2>9. Modifiche alla presente informativa</h2>
+      <p>Questa Informativa sulla Privacy può essere aggiornata quando cambiano le funzionalità di QuickSave, i servizi di terze parti, gli obblighi legali o le modalità di trattamento dei dati. La versione corrente sarà pubblicata su questa pagina con la relativa data di aggiornamento.</p>
+
+      <h2>10. Contatti</h2>
+      <p>Per domande sulla privacy o richieste relative a QuickSave:</p>
+      <div class="contact">
+        <strong>Abdulrahman Alraeeini</strong><br>
+        <a href="mailto:raeeiniab@gmail.com">raeeiniab@gmail.com</a>
+      </div>
+
+      <h2>11. Informazioni correlate</h2>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy di Google</a></li>
+        <li><a href="https://support.google.com/admob/answer/10502938" target="_blank" rel="noopener">Google Publisher Policies</a></li>
+        <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener">Google Mobile Ads SDK — Play Data Disclosure</a></li>
+      </ul>
+    </section>
+
+    <section id="ar" class="lang" lang="ar" dir="rtl">
+      <h1>سياسة الخصوصية</h1>
+      <p class="meta"><strong>آخر تحديث:</strong> 29 سبتمبر 2026</p>
+
+      <div class="notice">
+        توضح سياسة الخصوصية هذه كيفية تعامل QuickSave مع المعلومات عند استخدام تطبيق QuickSave على نظام Android.
+      </div>
+
+      <h2>1. مسؤول معالجة البيانات</h2>
+      <p>تم تطوير QuickSave وإدارتها بواسطة <strong>Abdulrahman Alraeeini</strong>.</p>
+      <div class="contact">
+        <strong>للتواصل:</strong> <a href="mailto:raeeiniab@gmail.com">raeeiniab@gmail.com</a>
+      </div>
+
+      <h2>2. المعلومات التي يعالجها QuickSave</h2>
+      <p>صُمم QuickSave لتقليل معالجة البيانات قدر الإمكان، وعندما يكون ذلك عمليًا يتم الاحتفاظ ببيانات التطبيق على الجهاز. حاليًا لا يدير QuickSave نظام حسابات مستخدمين خاصًا به أو خادم إعلانات خاصًا أو قاعدة بيانات سحابية لتشغيل التطبيق بشكل عادي.</p>
+
+      <h3>2.1 الروابط ومعلومات الوسائط</h3>
+      <p>عند إدخال رابط أو مشاركته، قد يعالج QuickSave الرابط وبعض المعلومات التقنية اللازمة للتعرف على المحتوى المطلوب وتحميله، مثل العنوان والصورة المصغرة والمدة والصيغة وتدفقات الوسائط المتاحة.</p>
+
+      <h3>2.2 سجل التحميلات والإعدادات</h3>
+      <p>يحفظ QuickSave إعدادات التطبيق وسجل التحميلات محليًا على الجهاز. وقد يشمل ذلك حالة التحميل والعنوان والرابط المصدر والجودة أو الصيغة المختارة ومكان الملف والمعلومات المرتبطة به.</p>
+
+      <h3>2.3 جلسات تسجيل الدخول وملفات الارتباط</h3>
+      <p>بالنسبة إلى الخدمات المدعومة، يمكنك تسجيل الدخول اختياريًا عبر المتصفح المدمج في QuickSave أو استيراد ملف <code>cookies.txt</code> متوافق. يتم تخزين معلومات الجلسة وملفات الارتباط داخل المساحة الخاصة بالتطبيق واستخدامها لإجراء طلبات مصادق عليها إلى خدمة الطرف الثالث المعنية.</p>
+      <p>لا يوفر QuickSave للمطور حسابًا سحابيًا منفصلًا لتخزين بيانات الاعتماد هذه. ومع ذلك، عند طلب محتوى يتطلب تسجيل الدخول، قد تتلقى منصة الطرف الثالث المعنية الطلبات والمعلومات وفقًا لسياسة الخصوصية وشروط الاستخدام الخاصة بها.</p>
+
+      <h3>2.4 النسخ الاحتياطي</h3>
+      <p>إذا استخدمت ميزة النسخ الاحتياطي في QuickSave، فقد يحتوي ملف JSON المُصدّر على سجل التحميلات وقوائم التشغيل والإعدادات وبيانات الجلسات أو ملفات الارتباط المدعومة. يتم إنشاء الملف في المكان الذي تختاره من خلال أداة اختيار الملفات في Android. أنت مسؤول عن حماية أي نسخة احتياطية تحتوي على معلومات حساسة.</p>
+
+      <h3>2.5 الإعلانات</h3>
+      <p>قد يستخدم QuickSave خدمة Google Mobile Ads (AdMob) لعرض إعلانات البانر والإعلانات بمكافأة. وفقًا لوثائق Google الحالية الخاصة بـ Google Mobile Ads SDK، قد تجمع حزمة الإعلانات وتشارك تلقائيًا معلومات مثل عنوان IP وتفاعلات المستخدم مع التطبيق والمعلومات التشخيصية ومعرفات الجهاز أو الحساب لأغراض تشمل الإعلانات والتحليلات ومنع الاحتيال.</p>
+      <p>بالنسبة إلى المستخدمين في المناطق التي تتطلب الحصول على موافقة، تخضع الإعلانات والإعلانات المخصصة لمتطلبات الموافقة المعمول بها وسياسات Google للناشرين.</p>
+
+      <h2>3. كيف تُستخدم المعلومات</h2>
+      <p>قد تُستخدم المعلومات التي يعالجها QuickSave من أجل:</p>
+      <ul>
+        <li>بدء وإدارة عمليات التحميل؛</li>
+        <li>عرض تقدم التحميل وسجله؛</li>
+        <li>حفظ تفضيلات المستخدم؛</li>
+        <li>دعم جلسات تسجيل الدخول الاختيارية؛</li>
+        <li>إنشاء واستعادة النسخ الاحتياطية؛</li>
+        <li>عرض وقياس الإعلانات من خلال خدمات إعلانية تابعة لجهات خارجية.</li>
+      </ul>
+
+      <h2>4. خدمات ومنصات الجهات الخارجية</h2>
+      <p>قد يتفاعل QuickSave مع منصات إلكترونية تابعة لجهات خارجية عندما تطلب محتوى منها. وقد تقوم هذه المنصات بمعالجة عناوين IP وملفات الارتباط ومعلومات المصادقة وطلبات المحتوى وغيرها من المعلومات التقنية وفقًا لسياساتها وشروطها الخاصة.</p>
+      <p>قد تشمل عمليات التكامل، بحسب الإصدار، YouTube/Google وInstagram وFacebook وX. وقد تتغير المنصات المدعومة بمرور الوقت.</p>
+      <p>خدمات الجهات الخارجية مستقلة عن QuickSave. ننصحك بمراجعة سياسات الخصوصية وشروط الاستخدام الخاصة بها قبل استخدام الميزات التي تتطلب تسجيل الدخول.</p>
+
+      <h2>5. التخزين والاحتفاظ بالمعلومات</h2>
+      <p>يتم الاحتفاظ ببيانات التطبيق المحلية عادةً حتى تقوم بحذفها أو مسح بياناتها من QuickSave أو حذف بيانات الجلسة وملفات الارتباط أو إزالة التطبيق أو استبدالها بطريقة أخرى.</p>
+      <p>قد تبقى ملفات الوسائط التي تم تحميلها في المجلد الذي اخترته حتى بعد مسح بيانات التطبيق أو إلغاء تثبيته. ويمكنك حذف هذه الملفات باستخدام مدير الملفات أو مكتبة الوسائط في جهازك.</p>
+      <p>قد تحتفظ خدمات الإعلانات والمنصات الإلكترونية التابعة لجهات خارجية بالمعلومات وفقًا لسياساتها الخاصة.</p>
+
+      <h2>6. أمن البيانات</h2>
+      <p>يستخدم QuickSave مساحة التخزين الخاصة بالتطبيق في Android لبيانات الجلسات المحلية ويعتمد على آليات الأمان التي يوفرها النظام. وتخضع الاتصالات الشبكية مع خدمات الجهات الخارجية لآليات الأمان المستخدمة من قبل تلك الخدمات.</p>
+      <p>لا يمكن ضمان أن تكون أي وسيلة للتخزين أو النقل الإلكتروني آمنة بشكل كامل. احرص على إبقاء النسخ الاحتياطية وملفات المصادقة الخاصة بك بعيدة عن الآخرين.</p>
+
+      <h2>7. اختيارات المستخدم وحقوقه</h2>
+      <p>بحسب موقعك والقانون المعمول به، قد تتمتع بحقوق تتعلق بالبيانات الشخصية، مثل الوصول والتصحيح والحذف وتقييد المعالجة أو الاعتراض عليها في بعض الحالات، وسحب الموافقة عندما تكون المعالجة مبنية على الموافقة.</p>
+      <p>داخل QuickSave يمكنك إدارة أو حذف سجل التحميلات المحلي وإعدادات التطبيق وبيانات الجلسة وملفات الارتباط والنسخ الاحتياطية من خلال أدوات التطبيق ونظام Android.</p>
+      <p>وبالنسبة إلى خيارات الإعلانات وأدوات الخصوصية التي توفرها Google، يمكنك أيضًا استخدام أدوات الموافقة والخصوصية التي توفرها Google وجهازك.</p>
+
+      <h2>8. خصوصية الأطفال</h2>
+      <p>لا يستهدف QuickSave الأطفال الذين تقل أعمارهم عن 13 عامًا بشكل خاص، ولا نطلب عن علم من الأطفال تقديم معلومات شخصية مباشرة إلى المطور.</p>
+
+      <h2>9. التعديلات على سياسة الخصوصية</h2>
+      <p>قد يتم تحديث سياسة الخصوصية هذه عند تغيير ميزات QuickSave أو خدمات الجهات الخارجية أو المتطلبات القانونية أو ممارسات معالجة البيانات. سيتم نشر النسخة الحالية في هذه الصفحة مع تحديث التاريخ.</p>
+
+      <h2>10. التواصل</h2>
+      <p>للاستفسارات المتعلقة بالخصوصية أو الطلبات الخاصة بـ QuickSave:</p>
+      <div class="contact">
+        <strong>Abdulrahman Alraeeini</strong><br>
+        <a href="mailto:raeeiniab@gmail.com">raeeiniab@gmail.com</a>
+      </div>
+
+      <h2>11. معلومات ذات صلة</h2>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a></li>
+        <li><a href="https://support.google.com/admob/answer/10502938" target="_blank" rel="noopener">سياسات Google للناشرين</a></li>
+        <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener">Google Mobile Ads SDK — إفصاح بيانات Google Play</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container">
+    QuickSave · Abdulrahman Alraeeini · <a href="mailto:raeeiniab@gmail.com">raeeiniab@gmail.com</a>
+  </footer>
+
+  <script>
+    function setLanguage(lang){
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+      document.querySelectorAll('.langbar button').forEach(el => el.classList.remove('active'));
+      document.getElementById('btn-' + lang).classList.add('active');
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+      try { localStorage.setItem('quicksave-privacy-language', lang); } catch(e) {}
+    }
+    (function(){
+      let lang='en';
+      try {
+        const saved=localStorage.getItem('quicksave-privacy-language');
+        if(saved && ['en','it','ar'].includes(saved)) lang=saved;
+      } catch(e) {}
+      setLanguage(lang);
+    })();
+  </script>
+</body>
+</html>
